@@ -1,0 +1,13 @@
+.DS_Store
+
+*.out
+*.o
+
+*.csv
+*.xlsx
+!data/contracts.xlsx
+!data/clean/*.csv
+
+.Rdata
+.Rhistory
+
