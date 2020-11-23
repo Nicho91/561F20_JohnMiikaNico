@@ -25,7 +25,7 @@ latlong2county <- function(pointsDF) {
   countyNames[indices]
 }
 
-load('data/fires.rda')
+load('../data/fires.rda')
 
 fires %>% 
   summarise_all(funs(sum(is.na(.))))
